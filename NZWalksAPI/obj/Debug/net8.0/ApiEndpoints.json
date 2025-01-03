@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "NZWalksAPI.Controllers.RegionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Regions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.RegionsController",
+    "Method": "Create",
+    "RelativePath": "api/Regions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addRegionRequestDto",
+        "Type": "NZWalksAPI.Models.DTO.AddRegionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.RegionsController",
+    "Method": "GetById",
+    "RelativePath": "api/Regions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.RegionsController",
+    "Method": "Update",
+    "RelativePath": "api/Regions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRegionDto",
+        "Type": "NZWalksAPI.Models.DTO.UpdateRegionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.RegionsController",
+    "Method": "Delete",
+    "RelativePath": "api/Regions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NZWalksAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
